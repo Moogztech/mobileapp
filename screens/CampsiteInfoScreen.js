@@ -29,7 +29,7 @@ const CampsiteInfoScreen = ({ route }) => {
     };
 
     const resetForm = () => {
-        setRating(0);
+        setRating(5);
         setAuthor('');
         setText('');
     };
